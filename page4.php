@@ -6,10 +6,16 @@
 </head>
 <body>
 <h1>Suivi des élèves</h1>
-<input type="button" value="Créer nouvelle liste">
-<input type="button" value="Ajouter un élève">
-<input type="button" value="Supprimer un élève">
+<form action="index.php" method="post">
+    <input type="submit" name="list" value="Créer nouvelle liste">
+    <input type="submit" name="add" value="Ajouter un élève">
+</form>
+<form action="page4.php" method="post">
+    <input type="submit" name="del" value="Supprimer un élève">
+</form>
+<?php
 
+?>
 </body>
 </html>
 
