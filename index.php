@@ -5,6 +5,6 @@
     <title>Projet S2</title>
   </head>
   <body>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Bowl_of_cassoulet.jpg" />
+
   </body>
 </html>
