@@ -26,7 +26,7 @@ if (extension_loaded ('PDO')) {
     <?php
     if (isset($_POST['add'])){?>
         <h2>Ajouter un élève</h2>
-        <form action="test.php" method="post">
+        <form action="index.php" method="post">
             <p>Nom : <input id="nom" type="text" name="nom"></p>
             <p>Prénom : <input id="prenom" type="text" name="prenom"></p>
             <p>Promo : <input id="promo" type="text" name="promo"></p>
